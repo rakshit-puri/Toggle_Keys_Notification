@@ -2,7 +2,7 @@ import ctypes
 import time
 try:
     from toast import ToastNotifier
-except:
+except ModuleNotFoundError:
     import sys
     sys.exit("Use the command \"pip install win10toast\" in Command Prompt/Powershell to use notify.pyw")
 
