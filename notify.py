@@ -1,6 +1,10 @@
 import ctypes
 import time
-from toast import ToastNotifier
+try:
+    from toast import ToastNotifier
+except:
+    import sys
+    sys.exit("Use the command \"pip install win10toast\" in Command Prompt/Powershell to use notify.py")
 
 keyboard = ctypes.WinDLL("User32.dll")
 VK_NUMLOCK = 0x90
@@ -20,7 +24,7 @@ def get_numlock_state():
 def pop_up(body, icon):
     """Generates Pop-up notification when state changes"""
     notification = ToastNotifier()
-    notification.show_toast("Lock Key State", body, icon_path="assets\\"+icon, duration=1.5)
+    notification.show_toast("Lock Key State", body, icon_path="assets\\" + icon, duration=1.5)
 
 
 caps_curr = get_capslock_state()
