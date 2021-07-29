@@ -1,9 +1,11 @@
 import ctypes
 import time
+
 try:
     from toast import ToastNotifier
 except ModuleNotFoundError:
     import sys
+
     sys.exit("Use the command \"pip install win10toast\" in Command Prompt/Powershell to use notify.py")
 
 keyboard = ctypes.WinDLL("User32.dll")
@@ -36,16 +38,16 @@ while True:
 
     if caps_curr != caps_change:
         if caps_change == "Caps Lock On":
-            pop_up("Caps Lock On", "CapsLock_On.ico")
+            pop_up(caps_change, "CapsLock_On.ico")
         else:
-            pop_up("Caps Lock Off", "CapsLock_Off.ico")
+            pop_up(caps_change, "CapsLock_Off.ico")
         caps_curr = caps_change
         time.sleep(0.1)
 
     if num_curr != num_change:
         if num_change == "Num Lock On":
-            pop_up("Num Lock On", "NumLock_On.ico")
+            pop_up(num_change, "NumLock_On.ico")
         else:
-            pop_up("Num Lock Off", "NumLock_Off.ico")
+            pop_up(num_change, "NumLock_Off.ico")
         num_curr = num_change
     time.sleep(0.2)
