@@ -19,12 +19,11 @@ A python script that shows a notification when **Caps Lock** or **Num Lock** key
   <img text = "Linux Toggle Key Notification Demo" src = "/Linux Toggle Key Notification.gif"/>
 </p> 
 
-### Do you want to contribute to this project???
+### Do you want to contribute?
 
-Click on [this](CONTRIBUTING.md) and follow the proper steps for being one among our contributors.
+Click on [this](CONTRIBUTING.md) and follow the proper steps to become a contributor.
 
-Also keep an eye on the [code of conduct](CODE_OF_CONDUCT.md) so that you don't break any.
+Make sure you follow the [code of conduct](CODE_OF_CONDUCT.md).
 
-We will welcome you from both of our hands.
 
 
