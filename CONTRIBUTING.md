@@ -9,7 +9,7 @@
 **2.**  Clone your fork copy of the project which'll be visible in your account.
 
 ```
-git clone --depth 1 https://github.com/<your_user_name>/Blood-Buddy.git
+git clone --depth 1 https://github.com/<your_user_name>/Toggle_Keys_Notification.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
