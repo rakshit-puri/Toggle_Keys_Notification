@@ -71,4 +71,4 @@ git push -u origin <your_branch_name>
 
 **15.** Congrats !! You made your first PR 🥳.  
 
- ✨This project and everyone participating in it is governed by **[Code Of Conduct](CODE_OF_CONDUCT.md)**.By participating, you are expected to uphold this code.✨
+ ✨This project and everyone participating in it is governed by **[Code Of Conduct](CODE_OF_CONDUCT.md)**. By participating, you are expected to uphold this code.✨
