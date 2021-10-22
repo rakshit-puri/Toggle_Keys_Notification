@@ -15,7 +15,7 @@ git clone --depth 1 https://github.com/<your_user_name>/Toggle_Keys_Notification
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd Blood-Buddy
+cd Toggle_Keys_Notification
 ```
 
 **4.** Add a remote upstream to the original repository.
@@ -44,7 +44,6 @@ git checkout -b <your_branch_name>
 
 **8.** Perform your desired changes to the code base.
 
-<p align="center"><img width=35% src="https://media.giphy.com/media/oMHPlvpTvnXGPS7GhX/giphy.gif"></p>
 
 **9.** Track your changes:heavy_check_mark: .
 
@@ -70,9 +69,6 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-**15.** Congrats !! You made your first PR 🥳.
+**15.** Congrats !! You made your first PR 🥳.  
 
-<p align="center"><img width=35% src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif"></p>
-<hr>
-
- ✨This project and everyone participating in it is governed by **[Code Of Conduct](CODE_OF_CONDUCT.md)** .By participating, you are expected to uphold this code.✨
+ ✨This project and everyone participating in it is governed by **[Code Of Conduct](CODE_OF_CONDUCT.md)**.By participating, you are expected to uphold this code.✨
