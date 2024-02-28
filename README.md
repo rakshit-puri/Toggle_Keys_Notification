@@ -2,7 +2,8 @@
 
 ### Description
 
-A python script that shows a notification when **Caps Lock** or **Num Lock** keys are pressed. It is useful for people that don't have **LEDs** on their keyboards. 
+A python script that shows a notification when **Caps Lock** or **Num Lock** keys are pressed.  
+For people that don't have **LEDs** on their keyboards. 
 
 
 ### Currently available:
